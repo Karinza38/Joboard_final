@@ -1,18 +1,20 @@
 {
-  "name": "interview_practice",
+  "name": "Joboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "A job board application that fetches job listings from the GitHub Jobs API and provides an API to access these job listings.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["job board", "GitHub Jobs API", "job listings"],
+  "author": "ujaved931",
+  "license": "MIT",
   "dependencies": {
-    "cron": "^1.7.2",
+    "cron": "^1.8.2",
     "express": "^4.17.1",
-    "node-fetch": "^2.6.0",
-    "redis": "^2.8.0"
+    "node-fetch": "^2.6.1",
+    "redis": "^3.1.2",
+    "dotenv": "^10.0.0",
+    "winston": "^3.3.3"
   }
 }
